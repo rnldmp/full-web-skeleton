@@ -1,6 +1,6 @@
 #Dette skriptet kan  kan dere kjøre om dere ikke har en bruker til å logge inn i databasen
 #--> kan være greit å endre trym til sitt navn og et eget passord.
-CREATE USER 'trym'@'%' IDENTIFIED BY '12345';
+CREATE USER 'admin'@'%' IDENTIFIED BY '12345';
 
 #--> dette trenger kun å kjøre om dere ikke har en schema (en database partisjon.)
 CREATE DATABASE if not EXISTS otra;
